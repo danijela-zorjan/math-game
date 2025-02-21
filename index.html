@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practise Math - Basics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Practise Math - Basics</h1>
+
+    <section class="game">
+      <section class="field">
+        <section id="start-section">
+            <button id="start-btn" class="btn">START</button>
+          </section>
+          
+          <section id="game-mode" style="display: none;">
+            <button class="btn" id="1">Easy</button>
+            <button class="btn" id="2">Medium</button>
+            <button class="btn" id="3">Hard</button>
+          </section>
+
+        <section id="game-field" style="display: none;">
+            <p class="element info" id="time"></p>
+            <p class="element info" id="level">Level: </p>
+
+            <section class="task-container">
+                <p class="element" id="task"></p><br>
+                <input type="number" id="result" class="element">
+            </section>
+        </section>
+
+        <section class="action-buttons">
+            <button class="btn" id="submit-btn"  style="display: none;">
+             Submit Answer</button>
+           </section>
+      </section>
+
+      
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
