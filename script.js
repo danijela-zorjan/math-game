@@ -75,8 +75,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const numbers = generateRandomNumbers();
         
         if (difficulty == 1) {
-            taskResult = numbers[0] + numbers[1] + numbers[2];
-            task.innerHTML = `${numbers[0]} + ${numbers[1]} + ${numbers[2]}`;
+            taskResult = numbers[0] + numbers[1];
+            task.innerHTML = `${numbers[0]} + ${numbers[1]}`;
         } else if (difficulty == 2) {
             taskResult = numbers[0] * numbers[1] + numbers[2];
             task.innerHTML = `${numbers[0]} * ${numbers[1]} + ${numbers[2]}`;
